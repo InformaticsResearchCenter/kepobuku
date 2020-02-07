@@ -18,8 +18,8 @@ from datetime import datetime
 
 class Kepo(object):
 	def __init__(self):
-		self.key = key
-		self.iv = iv
+		self.key = "rollysuprganteng"
+		self.iv = "1234surabihaneut"
 		self.keyuri = "key"
 		self.active_url8 = "https://cucunguk.herokuapp.com/" 
 		self.active_url7 = "https://proyek3d4ti.herokuapp.com/"
@@ -46,7 +46,18 @@ class Kepo(object):
 		self.apigithub = "https://api.github.com/repos/USERNAME/REPONAME/issues?sort=created&direction=desc&per_page=100"
 		self.apigithubclosed = "https://api.github.com/repos/USERNAME/REPONAME/issues?state=closed&per_page=100"
 		self.logname = 'datamahasiswa'
-		self.client_secret = client_secret
+		self.client_secret = {
+  "type": "service_account",
+  "project_id": "barudak-pokemon-go",
+  "private_key_id": "54c39adca7fea3a7983f0c856e5c2b73b05ced8c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCkX/v2IYxEC03m\nR21OABGZNkX+s/OONh12wz7DNNx8cGuBwjgO5dq95aMPaf7/W6ejCejA6YewALlh\nWvHoQDhdI6Vq9MXzH+AWP2KpmQ2mvPEjn6M7C1xDl3gF/qAjhh6qmlhHCQwXwHYN\n7jByjFT8KmvrbLs6Q91empRWJVGVhhibNDNNHEWOZtUeRl114Tv1xaUQlG85pE1v\n535R9Qh0gMpoe8dsKUVU+Ui5D6BPmashSnbDqZ3QsoHg40bLK692zVdAQUE2AdiV\nBsTtmTt4Utb77jYIRwD3XtYqhuSLD2cPHgKtvrwtexZqslXsPnYfSRGcmbVs4P0h\n7zizE1XvAgMBAAECggEAFz1nixaWKslVs7ZV5WkhaSyLu+WnDJcTwQaneS5K8ssV\nisHcxCUfsVPmIy1E0MdyzZx+jHEtbnxuZAMu4Dvdht7zKcqUBs+dvUzWlGJKfvsI\nCussnGdQSFGCNjLDDb1jg5JmjcXhMFB/6xtJ5+rLBIteORRlP5PNw2zj28Qooz+Z\ndGimc/Z7K5wwlI0PBBBiZDXcoZBrkQqOWvefN/JjNQFE+H4fXlLcFIkUMZGdcn+u\nTmBX6VmwYJNgUp3Zh767oKgwqz2GKvcGO0UURCqlOnc+DD78BA+YX2rA2Ee0tFug\nBathouxVjCvM2t6IUvQhdjGZur24lghxGHvh9UFNbQKBgQDSwRQEMFUvRr+aVzH3\nV4ZTagWposrVM46l7zNZClfoKJbpJk/J1rosVb9nnEFy/jhg9rNSr2XGKS/TXZj9\n4dHCbhhrGMUthVn6YqSsfYfed3QwGfOly4Eif8dueNmD+q4Vj4JjuquKVOhyk5KI\nW4M2ntP+ldhMBjaV34ajQvt4fQKBgQDHqe4BaEdWwxPkMV8XI7MI8l+H/rJsJK8q\nQg6U/kMYRgGhvPo4zCVLsX+aOlKHxSOxaXykV9rmHqRETOKXZ99vNB2vVj2JumAo\nXJc81zBISJy8GzNrhcqrQfKLOlNqPcowlutx1UmskQdZzQBktPG8+MNuN9714AlO\n0vveHqa/2wKBgQCsfhiq4QAnhIk3glxD65/mT6U41SOb4enDyAZHvx55xhbV1mSB\ndzzDIp9Y5tvuiUGNovzcFPCAgp9BKJ8aVCQBNWjI5uojOryNIQVUpB17KFuxLtxq\n+yfDG8AXm9OzoI2w2ddHVrYlrx7dAAlzjyrSnqY1/WCdwIwWmG8y2pTFZQKBgQCT\n/mfVETc3nzciQFosa6Cr9ANNaUNVF0fi+b2XQHP5DQLuoIWUDfVjCrj7V1mPG1fe\ni8MAicJOKc42dgrKkQqzgZyzNyg76zKVGDRdu18lZPUQFNVjUHMtx58BBgWITS6O\nH397C84lJAaf0G0HOHuqR3WMP8t60knz7D0Wof+VWwKBgQCWZPSmWfnX8OEANOLy\niduS/Bv480gMW+smU3EFOeBPAZG+6Mjl0Z/Ip3T6n1YqaaIlalIh1bn5tfzNvldx\n28uQM7b/3+rToEXx8Vxd4DxbMyA8giJydWJRlDYz/yrZ6Kl6Zu7wUlRqiWxF+I06\nBoJHh/hvyZeXsAQ8lhjcvUAOZA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kepolog@barudak-pokemon-go.iam.gserviceaccount.com",
+  "client_id": "107422664697000597338",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kepolog%40barudak-pokemon-go.iam.gserviceaccount.com"
+}
 
 	def cukupHalaman(self,userrepo,namarepo,namafile,pertemuan):
 		response = requests.get("https://github.com/" + userrepo + "/" + namarepo + "/raw/master/" + namafile + ".pdf")
@@ -194,7 +205,7 @@ class Kepo(object):
 		success = False
 		while success == False:
 			try:
-				siapnpm=self.driver.find_elements_by_class_name('cap-main')[7].text
+				siapnpm=self.driver.find_elements_by_class_name('cap-main')[-1].text
 				if siapnpm == NPM:
 					status = True
 				success = True
