@@ -194,7 +194,7 @@ class Kepo(object):
 		success = False
 		while success == False:
 			try:
-				siapnpm=self.driver.find_elements_by_class_name('cap-main')[7].text
+				siapnpm=self.driver.find_elements_by_class_name('cap-main')[-1].text
 				if siapnpm == NPM:
 					status = True
 				success = True
